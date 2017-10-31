@@ -1,0 +1,7 @@
+io/myutility/esloader/ESLoader.class
+io/myutility/autocomplete/DataDao.class
+io/myutility/autocomplete/ESJsonReader.class
+io/myutility/esloader/GCSLoader.class
+io/myutility/autocomplete/Controller.class
+io/myutility/autocomplete/DbUtility.class
+io/myutility/esloader/Product.class
