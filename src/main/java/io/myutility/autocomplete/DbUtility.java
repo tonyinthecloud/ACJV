@@ -35,20 +35,12 @@ public class DbUtility {
             String url = String.format(
                 "jdbc:google:mysql://%s/%s?user=%s&password=%s&useSSL=false", instanceConnectionName, databaseName, username,mypassword);
 
-
-  //          try {
-              
-  //              String url = System.getProperty("cloudsql");
-
                 try {
                     connection = DriverManager.getConnection(url);
                     return connection;
                     } catch (SQLException e) {
                         throw new ServletException(url + " Unable to connect to Cloud SQL 1" + url + e.getMessage());
-                    } /*
-                } catch (Exception ex) {
-                    throw new Exception("Unable to connect to Cloud SQL 2" + url + ex.getMessage());
-                } */
+                    } 
         }
     }
 }

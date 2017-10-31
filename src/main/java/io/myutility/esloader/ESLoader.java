@@ -84,9 +84,6 @@ public class ESLoader extends HttpServlet {
                 indexResponse = client.index(indexRequest);
                 ofy().save().entity(product[i]).now();
 
-//                DeleteRequest del_request = new DeleteRequest("catalogue","product", Integer.toString(i));
-//                DeleteResponse deleteResponse = client.delete(del_request);
-
                 }
 
             installer.uninstall();
