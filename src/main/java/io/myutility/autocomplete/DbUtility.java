@@ -26,10 +26,10 @@ public class DbUtility {
             return connection;
         else {
 
-            String instanceConnectionName = "modern-water-183115:us-central1:bestbuy-product-db";
-            String databaseName = "productdb";
-            String username = "tomcatdb";
-            String mypassword = "tomcatdb";
+            String instanceConnectionName = "gce-autocomplete:us-east1:gce-autocomplete";
+            String databaseName = "products”;
+            String username = “root”;
+            String mypassword = “G00GL3”;
             Connection conn = null;
 
             String url = String.format(
