@@ -28,8 +28,8 @@ public class DbUtility {
 
             String instanceConnectionName = "gce-autocomplete:us-east1:gce-autocomplete";
             String databaseName = "autocomplete";
-            String username = "root";
-            String mypassword = "G00GL3";
+            String username = "mytest";
+            String mypassword = "mytest";
             Connection conn = null;
 
             String url = String.format(
