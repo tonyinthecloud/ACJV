@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="header">
-        <h3>Autocomplete/LiveSearch feature only - SQL Server</h3>
+        <h3>Enter Product Name</h3>
 </div>
 <br />
 <br />
