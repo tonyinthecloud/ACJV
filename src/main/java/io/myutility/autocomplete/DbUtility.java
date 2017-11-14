@@ -27,9 +27,9 @@ public class DbUtility {
         else {
 
             String instanceConnectionName = "gce-autocomplete:us-east1:gce-autocomplete";
-            String databaseName = "products”;
-            String username = “root”;
-            String mypassword = “G00GL3”;
+            String databaseName = "autocomplete”;
+            String username = “mytest”;
+            String mypassword = “mytest”;
             Connection conn = null;
 
             String url = String.format(
