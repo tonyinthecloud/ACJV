@@ -27,7 +27,7 @@ public class DataDao {
             ResultSet rs = ps.executeQuery();
 
             while (rs.next()) {
-                data = rs.getString("category_name");
+                data = rs.getString("name");
                 System.out.println(data);                
                 list.add(data);                                      
             }
