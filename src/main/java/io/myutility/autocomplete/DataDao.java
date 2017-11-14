@@ -21,13 +21,13 @@ public class DataDao {
         
         try {
             ps = connection
-                    .prepareStatement("SELECT * FROM product_table  WHERE name  LIKE ?");
+                    .prepareStatement("SELECT * FROM products  WHERE name  LIKE ?");
 
             ps.setString(1, "%" + frameWork + "%");
             ResultSet rs = ps.executeQuery();
 
             while (rs.next()) {
-                data = rs.getString("name");
+                data = rs.getString("category_name");
                 System.out.println(data);                
                 list.add(data);                                      
             }
